@@ -10,3 +10,4 @@ with open('cause_of_death.csv', 'w') as file:
         file.write(f"{person['title']}​​​​,{person['ontology/deathCause_label']}​​​​,{person.get('ontology/profession_label')}​​​​,{person.get('deathYear')}​​​​,{person.get('deathPlace')}​​​​\n")
 
 #hello
+# yo 
